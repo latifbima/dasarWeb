@@ -7,3 +7,6 @@
 .link:link{
     color:greenyellow;
 }
+.link:visited {
+    color: greenyellow;
+}
