@@ -1,23 +1,26 @@
-h2{
-    color : orange;
-    font-family : Trebuchet MS;
-    text-align:center;
+h2 {
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
-.kotak{
+
+.kotak {
     padding: 50px;
-    width :100px;
-    color: #fff;
+    width: 100px;
+    color: white#fff;
     margin: 10px;
-    background : orange;
+    background: orange;
 }
-#kotak{
+
+#kotak {
     width: 400px;
-    color: #fff;
-    background :blue;
-    padding: 50px;
+    color: white;
+    background: blue;
+    padding: 50px   ;
 }
-body {
-    background: url('bunga1.jpg'), url(bunga2.jpeg);
-    background-repeat: no-repeat, repeat;
-    color : white:#fff;
+
+body{
+    background: url('../img/tree1.jpg'), url('../img/field1.jpg');
+    background-repeat: no-repeat,repeat;
+    color: white;
 }
