@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    $("h2").hide();
+                    $(".subjudul").hide();
+                    $("#paragraf1, #paragraf2").hide();
+                    $("div.paragraf").hide();
+                    $("p.paragraf:last").hide();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h2> Ini adalah judul Bab</h2>
+        <h3 class="subjudul"> Ini adalah Subu judul</h3>
+        <p id="paragraf1"> Ini adalah paragraf pertama</p>
+        <p id="paragraf2" class="dua"> ini adalah paragraf kedua</p>
+        <div class="paragraf">
+            <p class="paragraf}}">
+                 &nbsp;
+            </p>
+            ini adalah paragraf ketiga
+        </div>
+        <p>ini paragraf yang akan tetap ditampilkan</p>
+        <button>Klik saya!</button>
+    </body>
+</html>
